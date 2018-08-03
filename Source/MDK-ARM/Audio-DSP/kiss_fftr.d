@@ -1,0 +1,9 @@
+.\audio-dsp\kiss_fftr.o: ..\src\kiss_fftr.c
+.\audio-dsp\kiss_fftr.o: ..\inc\kiss_fftr.h
+.\audio-dsp\kiss_fftr.o: ..\inc\kiss_fft.h
+.\audio-dsp\kiss_fftr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\audio-dsp\kiss_fftr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\audio-dsp\kiss_fftr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\audio-dsp\kiss_fftr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\audio-dsp\kiss_fftr.o: ..\inc\_kiss_fft_guts.h
+.\audio-dsp\kiss_fftr.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
