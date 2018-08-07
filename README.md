@@ -1,8 +1,8 @@
 # Simple STM32F4 Vocoder
 
 
-Vocoder Project for ENGR 331
 John Walker and Andrew Whately
+
 May 2018
 
 **Project Description**
@@ -22,8 +22,7 @@ algorithm instead.
 
 * For LCD connections, see LCD.h
 * The voice input is handled by the onboard microphone
-* The modulator input enters through PC2. Either use the supplied
-	3.5mm audio jack or manually connect another device to PC2.
+* The modulator input enters through PC2.
 * The output signal is sent through the 3.5mm audio jack on the
 	board. Note that volume can be adjusted in headphone.c
 
