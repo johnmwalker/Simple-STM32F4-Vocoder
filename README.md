@@ -4,8 +4,10 @@
 Vocoder Project for ENGR 331
 John Walker and Andrew Whately
 May 2018
+
 **Project Description**
 -----------------------
+
 This application receives two analog signals, a voice and a
 modulator, and outputs the voice signal at the same pitch as the
 modulator in real time. It can also display pitch values of each
@@ -14,16 +16,20 @@ This project originally aimed to implement a phase-vocoder for
 use on an STM32F4 Discovery board. Due to memory and processing
 power limitations, we opted to implement a TD-PSOLA based
 algorithm instead.
+
 **Hardware connections**
 ------------------------
+
 * For LCD connections, see LCD.h
 * The voice input is handled by the onboard microphone
 * The modulator input enters through PC2. Either use the supplied
 	3.5mm audio jack or manually connect another device to PC2.
 * The output signal is sent through the 3.5mm audio jack on the
 	board. Note that volume can be adjusted in headphone.c
+
 **Current State**
 -----------------
+
 Application successfully alters the pitch of the voice input if the 
 input is of a relatively consistent pitch. It is best demonstrated
 by using two sine waves of different frequencies, one being played
@@ -44,9 +50,10 @@ Obvious areas of improvement include
 	be viable.
 * Figuring out why the LCD can't be used concurrently with sound output.
 	Something about the LCD code throws off audio playback.
-	
+
 **Credit**
 ----------
+
 This program is primarily based on the realtime audio DSP project written
 by Christopher Lauer. Many edits and additional comments have been made.
 Pitch detection uses a slightly-altered version of Antoine Schmitt's
